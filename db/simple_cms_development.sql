@@ -78,5 +78,5 @@ CREATE TABLE `subjects` (
   `created_at` datetime DEFAULT NULL,
   `updated_at` datetime DEFAULT NULL,
   PRIMARY KEY (`id`)
-) AUTO_INCREMENT=5;
+) AUTO_INCREMENT=7;
 INSERT INTO `subjects` VALUES (1,'Initial Subject',1,1,'2013-08-15 16:48:25','2013-08-15 17:54:22'),(2,'Revised Subject',2,1,'2013-08-15 16:54:07','2013-08-15 17:57:35'),(4,'Third Subject',3,0,'2013-08-15 19:03:56','2013-08-15 19:03:56');
